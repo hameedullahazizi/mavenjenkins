@@ -1,0 +1,90 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "as a valid user I should be able to login to the application",
+        "description": "",
+        "id": "test-login-functionality;as-a-valid-user-i-should-be-able-to-login-to-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 109323600,
+              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat stepDefinition.Login.i_open_the_browser(Login.java:12)\n\tat ✽.Given I open the browser(login.feature:6)\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I open the browser",
+            "match": {
+              "location": "Login.i_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I open the applicatoin",
+            "match": {
+              "location": "Login.i_open_the_applicatoin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I enter my username",
+            "match": {
+              "location": "Login.i_enter_my_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I enter my password",
+            "match": {
+              "location": "Login.i_enter_my_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I login to application",
+            "match": {
+              "location": "Login.i_login_to_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I see the logout buttion",
+            "match": {
+              "location": "Login.i_see_the_logout_buttion()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test login functionality",
+    "description": "As a valid user, I should be able to login to the application",
+    "id": "test-login-functionality",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
