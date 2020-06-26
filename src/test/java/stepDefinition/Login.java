@@ -8,6 +8,9 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriverService;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
@@ -20,8 +23,14 @@ public class Login {
 	@Given("^I Open Chrome Browser$")
 	public void I_Open_Chrome_Browser()  {
 		
-		System.setProperty("webdriver.chrome.driver", "/Users/hameedazizi/Downloads/Drivers/chromedriver");
-		driver = new ChromeDriver();
+		//System.setProperty("webdriver.chrome.driver", "/Users/hameedazizi/Downloads/Drivers/chromedriver");
+		//driver = new ChromeDriver();
+		
+		DesiredCapabilities caps = new DesiredCapabilities();
+        caps.setJavascriptEnabled(true); // not really needed: JS enabled by default
+        caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, System.getProperty("user.dir") + "/Drivers/phantomjs");
+        driver = new PhantomJSDriver(caps);
+        
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	
@@ -79,7 +88,8 @@ public class Login {
 	
 	@Then("^I create an account$")
 	public void I_create_an_account(DataTable accountDetials)  {
-		List<Map<String, String>>  accountData = accountDetials.asMaps(null, null);
+		List<Map<String, String>>  accountData = accountDetials.asMaps();
+		
 		for(Map<String, String> data : accountData ) {
 			driver.findElement(By.linkText("Accounts")).click();
 			driver.findElement(By.name("new")).click();
