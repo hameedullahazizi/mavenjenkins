@@ -59,22 +59,21 @@ formatter.match({
   "location": "Login.I_Open_Chrome_Browser()"
 });
 formatter.result({
-  "duration": 3478582646,
-  "status": "passed"
+  "duration": 173348858,
+  "error_message": "java.lang.IllegalStateException: The driver is not executable: /Users/hameedazizi/eclipse-new/com.codegatore.cucumber/Drivers/phantomjs\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:127)\n\tat org.openqa.selenium.phantomjs.PhantomJSDriverService.findPhantomJS(PhantomJSDriverService.java:245)\n\tat org.openqa.selenium.phantomjs.PhantomJSDriverService.createDefaultService(PhantomJSDriverService.java:181)\n\tat org.openqa.selenium.phantomjs.PhantomJSDriver.\u003cinit\u003e(PhantomJSDriver.java:105)\n\tat stepDefinition.Login.I_Open_Chrome_Browser(Login.java:32)\n\tat ✽.Given I Open Chrome Browser(login.feature:8)\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "Login.I_go_to_the_Salesforce_application()"
 });
 formatter.result({
-  "duration": 610255415,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Login.I_should_see_the_Salesforce_logo()"
 });
 formatter.result({
-  "duration": 76080771,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -86,8 +85,7 @@ formatter.match({
   "location": "Login.I_enter_as_username(String)"
 });
 formatter.result({
-  "duration": 321944627,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -99,8 +97,7 @@ formatter.match({
   "location": "Login.I_enter_as_password(String)"
 });
 formatter.result({
-  "duration": 87020174,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -112,8 +109,7 @@ formatter.match({
   "location": "Login.I_click_the_button(String)"
 });
 formatter.result({
-  "duration": 68329814,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 17,
@@ -169,8 +165,7 @@ formatter.match({
   "location": "Login.I_click_the_buttonn(String)"
 });
 formatter.result({
-  "duration": 3046754200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -182,8 +177,7 @@ formatter.match({
   "location": "Login.I_chick_the_button(String)"
 });
 formatter.result({
-  "duration": 534826003,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -199,8 +193,7 @@ formatter.match({
   "location": "Login.I_enter_for_tab(String,String)"
 });
 formatter.result({
-  "duration": 321682497,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -216,8 +209,7 @@ formatter.match({
   "location": "Login.I_enter_for_button(String,String)"
 });
 formatter.result({
-  "duration": 111886907,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -233,8 +225,7 @@ formatter.match({
   "location": "Login.I_enter_for_button(String,String)"
 });
 formatter.result({
-  "duration": 114410643,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -246,8 +237,7 @@ formatter.match({
   "location": "Login.I_click_button(String)"
 });
 formatter.result({
-  "duration": 1385986055,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenarioOutline({
   "line": 27,
@@ -379,22 +369,21 @@ formatter.match({
   "location": "Login.I_Open_Chrome_Browser()"
 });
 formatter.result({
-  "duration": 1528960602,
-  "status": "passed"
+  "duration": 321141,
+  "error_message": "java.lang.IllegalStateException: The driver is not executable: /Users/hameedazizi/eclipse-new/com.codegatore.cucumber/Drivers/phantomjs\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:127)\n\tat org.openqa.selenium.phantomjs.PhantomJSDriverService.findPhantomJS(PhantomJSDriverService.java:245)\n\tat org.openqa.selenium.phantomjs.PhantomJSDriverService.createDefaultService(PhantomJSDriverService.java:181)\n\tat org.openqa.selenium.phantomjs.PhantomJSDriver.\u003cinit\u003e(PhantomJSDriver.java:105)\n\tat stepDefinition.Login.I_Open_Chrome_Browser(Login.java:32)\n\tat ✽.Given I Open Chrome Browser(login.feature:8)\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "Login.I_go_to_the_Salesforce_application()"
 });
 formatter.result({
-  "duration": 666225496,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Login.I_should_see_the_Salesforce_logo()"
 });
 formatter.result({
-  "duration": 64214626,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -406,8 +395,7 @@ formatter.match({
   "location": "Login.I_enter_as_username(String)"
 });
 formatter.result({
-  "duration": 828415155,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -419,8 +407,7 @@ formatter.match({
   "location": "Login.I_enter_as_password(String)"
 });
 formatter.result({
-  "duration": 362548984,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -432,8 +419,7 @@ formatter.match({
   "location": "Login.I_click_the_button(String)"
 });
 formatter.result({
-  "duration": 1105894271,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 39,
@@ -491,15 +477,12 @@ formatter.match({
   "location": "Login.I_should_see_the_logout_link()"
 });
 formatter.result({
-  "duration": 1511856747,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
-  "location": "Login.I_create_an_account(DataTable)"
+  "location": "Login.i_create_an_account(DataTable)"
 });
 formatter.result({
-  "duration": 1454358,
-  "error_message": "cucumber.runtime.CucumberException: Can\u0027t convert DataTable to List\u003cMap\u003cnull,null\u003e\u003e\n\tat cucumber.runtime.table.TableConverter.toMaps(TableConverter.java:198)\n\tat cucumber.api.DataTable.asMaps(DataTable.java:95)\n\tat stepDefinition.Login.I_create_an_account(Login.java:82)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\n",
-  "status": "failed"
+  "status": "skipped"
 });
 });
