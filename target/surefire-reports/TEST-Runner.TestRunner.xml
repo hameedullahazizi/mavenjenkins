@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Runner.TestRunner" time="0.001" tests="7" errors="0" skipped="0" failures="0">
+<testsuite name="Runner.TestRunner" time="0.01" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib"/>
@@ -36,6 +36,7 @@
     <property name="library.jansi.path" value="/usr/local/maven/lib/jansi-native"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/hameedazizi"/>
+    <property name="Runner" value="TestRunner"/>
     <property name="user.timezone" value="America/New_York"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
@@ -45,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -DRunner=TestRunner"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -63,11 +64,37 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Given I open the browser" classname="Scenario: as a valid user I should be able to login to the application" time="0.001"/>
-  <testcase name="Then I open the applicatoin" classname="Scenario: as a valid user I should be able to login to the application" time="0"/>
-  <testcase name="And I enter my username" classname="Scenario: as a valid user I should be able to login to the application" time="0"/>
-  <testcase name="And I enter my password" classname="Scenario: as a valid user I should be able to login to the application" time="0"/>
-  <testcase name="And I login to application" classname="Scenario: as a valid user I should be able to login to the application" time="0"/>
-  <testcase name="And I see the logout buttion" classname="Scenario: as a valid user I should be able to login to the application" time="0"/>
-  <testcase name="Scenario: as a valid user I should be able to login to the application" classname="Scenario: as a valid user I should be able to login to the application" time="0"/>
+  <testcase name="initializationError" classname="Runner.TestRunner" time="0.01">
+    <error message="Bad tag: &quot;Test&quot;" type="gherkin.TagExpression$BadTagException"><![CDATA[gherkin.TagExpression$BadTagException: Bad tag: "Test"
+	at gherkin.TagExpression$TagExp.<init>(TagExpression.java:122)
+	at gherkin.TagExpression.add(TagExpression.java:57)
+	at gherkin.TagExpression.<init>(TagExpression.java:17)
+	at gherkin.formatter.TagFilter.<init>(TagFilter.java:14)
+	at gherkin.formatter.FilterFormatter.detectFilter(FilterFormatter.java:64)
+	at gherkin.formatter.FilterFormatter.<init>(FilterFormatter.java:41)
+	at cucumber.runtime.FeatureBuilder.parse(FeatureBuilder.java:126)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:104)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:54)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:34)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:239)
+	at cucumber.api.junit.Cucumber.<init>(Cucumber.java:62)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></error>
+  </testcase>
 </testsuite>

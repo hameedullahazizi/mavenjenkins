@@ -12,6 +12,6 @@ import cucumber.api.junit.Cucumber;
                  plugin= {"rerun:rerun/failds.txt"}
                  )
 
-public class Failedcases {
+public class FailedRunner {
 
 }

@@ -22,7 +22,9 @@
                 <version>2.18.1</version>
                 <configuration>
                     <includes>
-                        <exclude>**/**/*Runner.java</exclude>
+                        <exclude>**/**/${Runner}.java</exclude>
+                        <name>Runner</name>
+                        <Value>${Runner}</Value>
                     </includes>
                 </configuration>
             </plugin>

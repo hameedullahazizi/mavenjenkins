@@ -1,2 +1,3 @@
 Runner/TestRunner.class
+Runner/FailedRunner.class
 stepDefinition/Login.class
