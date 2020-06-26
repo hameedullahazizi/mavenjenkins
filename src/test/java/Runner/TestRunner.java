@@ -8,8 +8,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "Feature", 
                  glue="stepDefinition", 
-                 dryRun=false, 
-            
+                 dryRun=false
+                , 
                  monochrome=true, 
                  plugin= {"rerun:rerun/failds.txt", 
                 		 "pretty",
